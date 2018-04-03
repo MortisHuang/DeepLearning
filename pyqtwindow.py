@@ -11,7 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(792, 1009)
+        MainWindow.resize(800, 1009)
         MainWindow.setMinimumSize(QtCore.QSize(0, 900))
         MainWindow.setMaximumSize(QtCore.QSize(50000, 50000))
         font = QtGui.QFont()
